@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: yuanyouzi
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/zuoye?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: wang123456
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true	#将下划线命名方式转换为驼峰命名
+
